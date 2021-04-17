@@ -35,7 +35,7 @@ def main():
 
     model.fit_generator(
         train_generator,
-        steps_per_epoch=30,
+        steps_per_epoch=40,
         epochs=50,
         validation_data = validation_generator,
         validation_steps=10)
